@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+body{
+    background-color: #f0ebeb;
+
+}
+
+.box{
+    height: 30cm;
+}
+
+.box-x{
+    width: 100px;
+    height: 100px;
+    background-color: #09339E;
+    border-radius: 50%;
+    position: relative;
+    left: 4cm;
+    top: 2cm;
+    animation: animation1 3s infinite alternate ease-in-out;
+    animation-fill-mode: backwards;
+    animation-duration: 4s;
+    transition-duration: 4s;
+}
+
+.box-y{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(238, 50, 50);
+    border-radius: 50%;
+    position: relative;
+    top: 8cm;
+    animation: animation2 3s infinite alternate ease-in-out;
+    animation-fill-mode: backwards;
+    animation-duration: 4s;
+    transition-duration: 2s;
+}
+
+.box-z{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(247, 215, 35);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 3cm;
+    left: 13cm;
+    animation: animation3 3s infinite alternate ease-in-out;
+    animation-fill-mode: backwards;
+    animation-duration: 4s;
+    transition-duration: 3s;
+}
+
+.box-1{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(40, 190, 10);
+    border-radius: 50%;
+    position: relative;
+    top: 8cm;
+    animation: animation4 3s infinite alternate ease-in-out;
+    animation-fill-mode: backwards;
+    animation-duration: 4s;
+    transition-duration: 2s;
+}
+
+@keyframes animation1{
+    from{
+        top: 40px;
+    }
+    to{
+        top: 100px;
+    }
+}
+
+
+.log{
+    width: 10cm;
+    height: 15cm;
+    top: 5cm;
+    left: 33cm;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    position: absolute;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f8f8f8;
+    box-shadow: 2px 2px 21px 1px rgb(175, 174, 174);
+}
+
+#email{
+    align-content: flex-end;
+    justify-content: center;
+    display: flex;
+    width:200px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-style:groove;
+    border-color: #f8f8f8;
+    border-radius: 3px;
+
+}
+
+#senha{
+    align-content: flex-end;
+    justify-content: center;
+    display: flex;
+    width:200px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-style:groove;
+    border-color: #f8f8f8;
+    border-radius: 3px;
+
+}
+
+.mark{
+    align-content:center;
+    justify-content:flex-start;  
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display:block;
+    clear: both;
+    padding-left: 15px;
+}
+
+.buttonClass {
+    font-size:20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: inline-block;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    right:25mm;
+    width: 90px;
+    height:40px;
+    padding: 10px;
+    position: absolute;
+    border-width:1px;
+    color:#fff;
+    border-color:rgba(89, 155, 179, 1);
+    font-weight:bold;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    box-shadow: 0px 10px 14px -7px #a2a6a7;
+    text-shadow: 0px 1px 0px #ffffff;
+    background:#b3261e;
+
+}
+
+.buttonClass:hover {
+    background: #7e0303
+}
+
+.buttonClass2:hover {
+    background: #888686
+}
+
+.buttonClass2 {
+    font-size:20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: inline-block;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    right:70mm;
+    width: 90px;
+    height:40px;
+    padding: 10px;
+    position: absolute;
+    border-width:1px;
+    color:#fff;
+    border-color:rgba(89, 155, 179, 1);
+    font-weight:bold;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    box-shadow: 0px 10px 14px -7px #a1a1a1;
+    background:#a6a8a8;
+}
+
+
